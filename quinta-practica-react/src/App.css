@@ -1,0 +1,14 @@
+.card{
+    background-color: white;
+    width: 330px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px;
+}
+
+.itemList{
+    list-style: none;
+    background-color: lightgray;
+    margin-bottom: 5px;
+    
+}

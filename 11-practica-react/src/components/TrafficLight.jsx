@@ -4,7 +4,7 @@ import { Ligth } from "./Light"
 
 export const TrafficLight = ()=>{
 
-    const [color, setColor] = useState("light")
+    const [color, setColor] = useState("")
 
 
     return (

@@ -44,6 +44,7 @@ El orden seria rojo,amarillo,verde
 Crear un componente Modal reutilizable
 Debe ser opcional tener un titulo, boton para cerrar y el overlay
 Pasarle por children el contenido del modal
+
 Parte 2
 Crear un navbar y mostrar 2 botonos login/register
 Al hacer click en cada uno de los botones se debe abrir un modal con su formulario

@@ -1,0 +1,38 @@
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.showOverlay{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.modal{
+    position: relative;
+    max-width: 500px;
+    max-height: 80vh;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 20px;
+
+}
+
+.hidden{
+    display: none;
+    
+}
+
+.show{
+    display: block;
+}

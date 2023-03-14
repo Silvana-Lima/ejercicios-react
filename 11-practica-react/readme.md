@@ -50,3 +50,30 @@ Crear un navbar y mostrar 2 botonos login/register
 Al hacer click en cada uno de los botones se debe abrir un modal con su formulario
 El formulario debe estar validado
 Al pasar la validacion remplazar los botones del navbar con el nombre de usuario
+
+# Clase 12
+
+# Grados centígrados
+Definir un componente App que contendrá un único componente llamado Form. Este componente recogerá los grados centígrados introducidos, procesará la respuesta y la mostrará por pantalla.
+Para ello deberé multiplicar por 9/5 y sumar 32.
+20 grados centígrados son 68 grados Farenheit.
+
+# Ejercicio Elevando Estado
+Programa una aplicación con dos componentes.
+En uno de ellos, el usuario escribirá dos números y se calculará su suma.
+Ese componente, enviará el resultado de la operación al componente padre que a su vez se la enviará al segundo componente que será el encargado de mostrar la solución.
+Coste hotel.
+Haremos una aplicación para calcular el coste de un viaje. Para ello desarrollaremos un componente App que tomarará del usuario el número de noches.
+
+Recogeremos el número de noches, utilizando useState().
+
+Luego le pasaremos este valor como prop a dos componentes:
+
+Componente CosteHotel:
+
+múltiplica el número de noches por los 140usd que cuesta cada noche.
+Componente CosteAlquiler:
+
+Cada día de alquiler cuesta 40 usd.
+Si alquilas un coche por 3 días o más, obtienes un descuento de 20usd sobre el total.
+Si alquilas un coche por 7 días o más, obtienes un descuento de 50usd sobre el total (no acumulable con los 20usd de haber alquilado por más de 3 días)

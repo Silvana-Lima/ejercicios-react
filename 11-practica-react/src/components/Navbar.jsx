@@ -3,11 +3,12 @@ import { Modal } from "./Modal"
 import "../styles/modal.css"
 
 export const NavBar = ()=>{
+    // states login
     const [user, setUser] = useState("");
     const [password, setPasword] = useState("");
     const [login, setLogin] = useState(false);
     const [ error , setError] = useState(false);
-
+      // states register
     const [newUser, setNewUser] = useState("");
     const [newPassword, setNewPassword] = useState("");
     const [createUser, setcreateUser] = useState(false);
@@ -36,7 +37,7 @@ export const NavBar = ()=>{
 
     return(
         <div>
-            <div className={login ? "hidden" : undefined}>
+            <div className={login || createUser? "hidden" : undefined}>
             <Modal buttonOpenText="Login">
                 <form action="">
                     <label htmlFor="user">Username</label>
@@ -60,7 +61,7 @@ export const NavBar = ()=>{
             </div>
             
 
-            <div className={createUser ? "hidden" : undefined}>
+            <div className={createUser || login ? "hidden" : undefined}>
             <Modal buttonOpenText="Register">
             <form action="">
 

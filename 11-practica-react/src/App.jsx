@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { Carrusel } from './components/carrusel'
+import { Form } from './components/Form'
 import { Modal } from './components/Modal'
 import { NavBar } from './components/Navbar'
 import { TrafficLight } from './components/TrafficLight'
@@ -23,8 +24,10 @@ function App() {
             
             
        </Modal> */}
+{/* 
+       <NavBar /> */}
 
-       <NavBar />
+       <Form />
     </div>
   )
 }

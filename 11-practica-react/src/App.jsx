@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import { Carrusel } from './components/carrusel'
+
+import { Suma } from './components/ejercicio-elevando-estados/Suma'
 import { Form } from './components/Form'
 import { Modal } from './components/Modal'
 import { NavBar } from './components/Navbar'
@@ -24,10 +26,15 @@ function App() {
             
             
        </Modal> */}
-{/* 
-       <NavBar /> */}
 
-       <Form />
+      {/*  <NavBar /> */}
+
+      {/* <Form /> */}
+
+      {/* 5- Ejercicio elevando estados */}
+      < Suma />
+      
+
     </div>
   )
 }

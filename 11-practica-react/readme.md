@@ -62,7 +62,8 @@ Para ello deberé multiplicar por 9/5 y sumar 32.
 Programa una aplicación con dos componentes.
 En uno de ellos, el usuario escribirá dos números y se calculará su suma.
 Ese componente, enviará el resultado de la operación al componente padre que a su vez se la enviará al segundo componente que será el encargado de mostrar la solución.
-Coste hotel.
+
+# Coste hotel.
 Haremos una aplicación para calcular el coste de un viaje. Para ello desarrollaremos un componente App que tomarará del usuario el número de noches.
 
 Recogeremos el número de noches, utilizando useState().

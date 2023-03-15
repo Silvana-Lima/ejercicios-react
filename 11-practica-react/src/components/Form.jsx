@@ -12,7 +12,7 @@ export const Form = ()=>{
         <div>
             <label htmlFor="grados">Ingrese grados centígrados (sólo números)</label>
             <input type="number" name="grados" id="" onChange={(e)=>
-            cambiarAFarenheit(e)}/>
+            cambiarAFarenheit(e)} value={grados} />
             <p>Representa {grados} grados Farenheit</p>
         </div>
     )

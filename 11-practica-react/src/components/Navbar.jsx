@@ -42,11 +42,11 @@ export const NavBar = ()=>{
                 <form action="">
                     <label htmlFor="user">Username</label>
                     <br/>
-                    <input type="text" name="user" placeholder="Enter username" onChange={(e)=> setUser(e.target.value)} />
+                    <input type="text" name="user" placeholder="Enter username" onChange={(e)=> setUser(e.target.value)} value={user} />
                     <br/>
                     <label htmlFor="password">Password</label>
                     <br/>
-                    <input type="password" name="password" placeholder="Enter password" onChange={(e)=> setPasword(e.target.value)}/>
+                    <input type="password" name="password" placeholder="Enter password" onChange={(e)=> setPasword(e.target.value)} value={password}/>
                     <br/>
                     {error ? <span>"Datos incorrectos!!"</span> : undefined}
                     <button type="submit" onClick={(e)=>{
@@ -67,11 +67,11 @@ export const NavBar = ()=>{
 
                     <label htmlFor="user">Username</label>
                     <br/>
-                    <input type="text" name="user" placeholder="Enter username" onChange={(e)=> setNewUser(e.target.value)}/>
+                    <input type="text" name="user" placeholder="Enter username" onChange={(e)=> setNewUser(e.target.value)} value={newUser}/>
                     <br/>
                     <label htmlFor="password">Password</label>
                     <br/>
-                    <input type="password" name="password" placeholder="Enter password" onChange={(e)=> setNewPassword(e.target.value)} />
+                    <input type="password" name="password" placeholder="Enter password" onChange={(e)=> setNewPassword(e.target.value)} value={newPassword}/>
                     <br/>
                     {error ? <span>Datos incorrectos!!<hr/>Usuario y password deben tener mas de 5 caracteres cada uno.</span> : undefined}
                     <button type="submit" onClick={(e)=>{

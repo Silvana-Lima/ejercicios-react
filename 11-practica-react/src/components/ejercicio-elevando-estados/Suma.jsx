@@ -16,11 +16,11 @@ export const Suma = ()=>{
 
 
     return <form action="">
-        <label htmlFor="">ingrese el primer número</label>
-        <input type="number" name="" id="" onChange={(e)=> setPrimerNumero(e.target.value)}/>
+        <label htmlFor="primerNumero">ingrese el primer número</label>
+        <input type="number" name="primerNumero" id="" onChange={(e)=> setPrimerNumero(e.target.value)} value={primerNumero} />
 
-        <label htmlFor="">ingrese el segundo número</label>
-        <input type="number" name="" id="" onChange={(e)=> setSegundoNumero(e.target.value)}/>
+        <label htmlFor="segundoNumero">ingrese el segundo número</label>
+        <input type="number" name="segundoNumero" id="" onChange={(e)=> setSegundoNumero(e.target.value)} value={segundoNumero} />
         <button onClick={(e)=> {
             e.preventDefault()
             setSuma(Number(primerNumero) + Number(segundoNumero)) }}>Sumar</button>

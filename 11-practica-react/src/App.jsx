@@ -11,7 +11,10 @@ import { NavBar } from './components/Navbar'
 import { TrafficLight } from './components/TrafficLight'
 
 function App() {
+
+  {/* 6- useState de Ejercicio Coste hotel */}
   const [noches, setNoches] = useState(0)
+   
 
   
 
@@ -35,7 +38,7 @@ function App() {
        </Modal> */}
 
       {/* 3 - Parte 2 */}
-      {/*  <NavBar /> */}
+       <NavBar />
 
       {/* 4 - Ejercicio Grados centígrados */}
       {/* <Form /> */}
@@ -44,14 +47,16 @@ function App() {
       {/* < Suma /> */}
 
       {/* 6- Ejercicio Coste hotel */}
-      <form action="">
+      {/* <form action="">
          <label htmlFor="totalNoches">Ingrese cantidad de noches</label>
          <input type="number" onChange={(e)=> setNoches(e.target.value)} name="totalNoches" value={noches}/>
       </form>
       
       < CosteHotel totalNoches={noches} />
 
-      < CosteAlquiler totalNoches={noches} />
+      < CosteAlquiler totalNoches={noches} /> */}
+
+      {/* 6- Fin Ejercicio Coste hotel */}
 
 
       

@@ -38,7 +38,7 @@ export const NavBar = ()=>{
     return(
         <div>
             <div className={login || createUser? "hidden" : undefined}>
-            <Modal buttonOpenText="Login">
+            <Modal buttonOpenText="Login" overlay>
                 <form action="">
                     <label htmlFor="user">Username</label>
                     <br/>
@@ -62,7 +62,7 @@ export const NavBar = ()=>{
             
 
             <div className={createUser || login ? "hidden" : undefined}>
-            <Modal buttonOpenText="Register">
+            <Modal buttonOpenText="Register" overlay>
             <form action="">
 
                     <label htmlFor="user">Username</label>

@@ -79,3 +79,6 @@ Componente CosteAlquiler:
 Cada día de alquiler cuesta 40 usd.
 Si alquilas un coche por 3 días o más, obtienes un descuento de 20usd sobre el total.
 Si alquilas un coche por 7 días o más, obtienes un descuento de 50usd sobre el total (no acumulable con los 20usd de haber alquilado por más de 3 días)
+
+# Aclaración:
+Para ver funcionar un ejercicio, se deben comentar todos los demas en App.jsx

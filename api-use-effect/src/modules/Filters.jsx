@@ -1,21 +1,13 @@
 import {
     FormControl,
-    FormErrorMessage,
     Input,
     Select,
     InputGroup,
     InputRightElement,
   } from '@chakra-ui/react'
   import { SearchIcon } from '@chakra-ui/icons';
-import { useState } from 'react';
 
 export const Filters = ({filter, setFilter})=>{
-
-    // const [filter, setFilter] = useState({
-    //     name: "",
-    //     status: "",
-    //     gender:""
-    //  })
 
 const handleFilters = (e)=>{
     e.preventDefault()
@@ -23,7 +15,6 @@ const handleFilters = (e)=>{
         ...filter,
         [e.target.name]: e.target.value
     })
-    console.log(filter)
 }
 
     return(
